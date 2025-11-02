@@ -3,26 +3,22 @@
 letter = 'P'                # A string could be a single character or a bunch of texts
 print(letter)               # P
 print(len(letter))          # 1
-greeting = 'Hello, World!'  # String could be  a single or double quote,"Hello, World!"
+greeting = 'Hello, Earl!'  # String could be  a single or double quote,"Hello, World!"
 print(greeting)             # Hello, World!
 print(len(greeting))        # 13
 sentence = "I hope you are enjoying 30 days of python challenge"
 print(sentence)
 
 # Multiline String
-multiline_string = '''I am a teacher and enjoy teaching.
-I didn't find anything as rewarding as empowering people.
-That is why I created 30 days of python.'''
+multiline_string = '''I am a Developer and enjoy programming.'''
 print(multiline_string)
 # Another way of doing the same thing
-multiline_string = """I am a teacher and enjoy teaching.
-I didn't find anything as rewarding as empowering people.
-That is why I created 30 days of python."""
+multiline_string = """I am a Developer and enjoy programming."""
 print(multiline_string)
 
 # String Concatenation
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Earl'
+last_name = 'Panga'
 space = ' '
 full_name = first_name  +  space + last_name
 print(full_name) # Asabeneh Yetayeh
@@ -118,10 +114,10 @@ print(challenge.find('y'))  # 5
 print(challenge.find('th')) # 0
 
 # format()	formats string into nicer output    
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-job = 'teacher'
-country = 'Finland'
+first_name = 'Earl'
+last_name = 'Panga'
+job = 'Developer'
+country = 'Philippines'
 sentence = 'I am {} {}. I am a {}. I live in {}.'.format(first_name, last_name, job, country)
 print(sentence) # I am Asabeneh Yetayeh. I am a teacher. I live in Finland.
 
